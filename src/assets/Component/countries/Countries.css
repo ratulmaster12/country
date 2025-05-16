@@ -1,0 +1,12 @@
+.countries{
+   display: grid;
+   grid-template-columns:repeat(3,1fr); 
+   gap:10px;
+}
+
+.country-visited{
+    background-color: gray;
+}
+.visited-flag img{
+    width: 150px;
+}
